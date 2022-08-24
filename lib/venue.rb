@@ -6,6 +6,10 @@ class Venue
   def initialize(name, capacity)
     @name = 'Bluebird'
     @capacity = 4
-    @patrons = [] 
+    @patrons = []
+  end
+
+  def add_patron(add_patron)
+    @patrons << add_patron
   end
 end
